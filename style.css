@@ -1,0 +1,40 @@
+h1,body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+main{
+    margin:auto;
+    padding:2rem 1rem;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+label{
+    display:block;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+input,button{
+    margin-top: 1rem;
+    font-size: 1rem;
+    border:2px inset rgb(68, 68, 194);
+    padding: 0.5rem;
+    
+}
+
+button{
+    background-color: lightblue;
+}
+
+#output-box{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+
+}
