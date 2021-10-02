@@ -20,7 +20,7 @@ function calcProfitLoss(initial,quantity,current){
         var loss=(initial - current) * quantity;
         var lossPercentage = (loss/(initial*quantity)) *100;
         
-        showOutput(`The loss is ${loss} and loss percentage is ${lossPercentage}`);
+        showOutput(`The loss is ${loss} and loss percentage is ${lossPercentage.toFixed(2)}%`);
         outputBox.style.color='red';
         outputBox.style.border='2px solid red';
     }
@@ -28,7 +28,7 @@ function calcProfitLoss(initial,quantity,current){
         //profit
         var profit=(current - initial) * quantity;
         var profitPercentage = (profit/(initial*quantity)) *100;
-        showOutput(`The Profit is ${profit} and profit percentage is ${profitPercentage}`);
+        showOutput(`The Profit is ${profit} and profit percentage is ${profitPercentage.toFixed(2)}%`);
         outputBox.style.color='green';
         outputBox.style.border='2px solid green';
     }
