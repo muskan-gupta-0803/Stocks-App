@@ -12,17 +12,17 @@
 
     <main>
         <label for="initial-price">Initial Price<br>
-            <input type="text" placeholder="Enter the Initial Price" id="initial-price">
+            <input type="number" placeholder="Enter the Initial Price" id="initial-price" min="1" required>
         </label>
         
         <br/>
         <label for="stocks-quantity">Quantity of Stocks<br>
-            <input type="text" placeholder="Enter the number of Stocks bought" id="stocks-quantity">
+            <input type="number" placeholder="Enter the number of Stocks bought" id="stocks-quantity" min="1" required>
         </label>
         
         <br/>
         <label for="current-price">Current Price<br>
-            <input type="text" placeholder="Enter the current Price of the Stocks" id="current-price">
+            <input type="number" placeholder="Enter the current Price of the Stocks" id="current-price" min="1" required>
         </label>
 
         <button id="submit-btn">Tell Me!</button>
